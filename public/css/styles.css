@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap');
 
 body {
   margin: 0;
@@ -30,11 +30,10 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  color: #e0e0e0
 }
 .city-name p {
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 22pt;
 }
 .city-name span {
   font-weight: 400;
@@ -55,8 +54,12 @@ body {
 }
 .condition {
   line-height: 1em;
+  font-weight: 500;
   font-size: 1em;
   text-transform: capitalize;
+}
+.high, .low {
+  font-weight: 100;
 }
 .high::before {
   content: '';
@@ -83,7 +86,7 @@ body {
   background: #202020;
 }
 .icon-container img {
-  margin: auto
+  margin: auto;
 }
 .card-bottom {
   line-height: 0.5;
@@ -92,6 +95,6 @@ body {
   font-size: 12px;
 }
 .card-bottom p {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 300;
 }
