@@ -7,10 +7,13 @@ Weather app that consumes data by an external api(https://openweathermap.org). I
 search autocomplete that uses Places api from google, also it has included sweetalerts2 when searches are not found. <br>
 <br>
 #Sweetalert2 - If the searched city is not found <br>
+ <br>
 <img src="public/img/error.png" width="200">
 
 #Places api - Autocomplete <br>
+<br>
 <img src="public/img/autocomplete.png" width="200">
 
 #Openweathermap api - This image is showing the preview of consumed data from api and conditional displaying image and icon also text weather its daytime or night-time <br>
+<br>
 <img src="public/img/daynnight.png" width="350">
