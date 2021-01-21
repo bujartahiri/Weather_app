@@ -102,4 +102,6 @@ body {
 .pac-container {
   border-radius: 20px;
   padding: 10px;
+  margin-top: 10px;
+  border: solid 1px #86b7fe;
 }

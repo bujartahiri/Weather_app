@@ -84,6 +84,11 @@ searchForm.addEventListener('submit', event => {
     })
     .catch(error => {
       console.error(error)
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: "We couldn't find the city you searched",
+      })
     })
 })
 
