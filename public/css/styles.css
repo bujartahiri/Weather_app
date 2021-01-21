@@ -98,3 +98,8 @@ body {
   font-size: 30px;
   font-weight: 300;
 }
+
+.pac-container {
+  border-radius: 20px;
+  padding: 10px;
+}

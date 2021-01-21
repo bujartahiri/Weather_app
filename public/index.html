@@ -8,11 +8,11 @@
   <title>Weather app</title>
 </head>
 <body>
-  <div style="max-width: 500px; margin: 0 auto;">
+  <div style="max-width: 400px; margin: 0 auto;">
     <div class="container">
       <h1 class="text-center title">Weather app</h1>
       <form class="search-location">
-        <input placeholder="Search city..." type="text" name="city" autocomplete="off" class="form-control text-muted form-rounded p-4 shadow-sm">
+        <input data-city-cearch placeholder="Search city..." type="text" name="city" autocomplete="off" class="form-control text-muted form-rounded p-4 shadow-sm">
       </form>
       <div class="card my-3 shadow-lg back-card d-none">
         <div class="card-top text-center">
@@ -52,7 +52,12 @@
       </div>
     </div>
   </div>
-  <script src="index.js"></script>
-  <script src="requests.js"></script>
+  <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1tO4Xb1OFnyeqCtK82kjlq6Y0tk-wzTo&libraries=places">
+  </script>
+  <script defer src="index.js"></script>
+  <script defer src="requests.js"></script>
+  <script defer src="searchbox.js"></script>
+  
 </body>
 </html>
