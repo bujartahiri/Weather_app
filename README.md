@@ -9,4 +9,4 @@ search autocomplete that uses Places api from google, also it has included sweet
 <img src="public/img/autocomplete.png" width="200">
 
 #Openweathermap api - This image is showing the preview of consumed data from api and conditional displaying image and icon also text weather its daytime or night-time <br>
-<img src="public/img/daynnight.png" width="200">
+<img src="public/img/daynnight.png" width="350">
