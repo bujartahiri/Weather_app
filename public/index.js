@@ -89,6 +89,9 @@ searchForm.addEventListener('submit', event => {
         title: 'Oops...',
         text: "We couldn't find the city you searched",
       })
+      .then(() => {
+        cityValue.focus()
+      })
     })
 })
 
@@ -106,7 +109,11 @@ const getUserLocation = () => {
           Swal.fire({
             icon: 'error',
             title: 'Oops...',
-            text: "Something went wrong",
+            text: "We couldn't find the city you searched",
+          })
+          .then(() => {
+            searchForm.reset()
+            cityValue.focus()
           })
         })
     })
@@ -115,6 +122,10 @@ const getUserLocation = () => {
       icon: 'error',
       title: 'Oops...',
       text: "Geolocation is not supported by your browser",
+    })
+    .then(() => {
+      searchForm.reset()
+      cityValue.focus()
     })
   }
 }

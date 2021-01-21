@@ -19,6 +19,10 @@ searchBox.addListener("place_changed", () => {
         title: 'Oops...',
         text: "We couldn't find the city you searched",
       })
+      .then(() => {
+        searchForm.reset()
+        cityValue.focus()
+      })
     })
     
 })
