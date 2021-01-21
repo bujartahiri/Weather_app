@@ -92,3 +92,31 @@ searchForm.addEventListener('submit', event => {
     })
 })
 
+const getUserLocation = () => {
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(position => {
+      let latitude = position.coords.latitude
+      let longitude = position.coords.longitude
+      requestByGeoLocation(latitude, longitude)
+        .then(data => {
+          updateWeatherApp(data)
+        })
+        .catch(error => {
+          console.error(error)
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: "Something went wrong",
+          })
+        })
+    })
+  } else {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: "Geolocation is not supported by your browser",
+    })
+  }
+}
+
+window.onload = getUserLocation
