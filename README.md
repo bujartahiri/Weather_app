@@ -10,7 +10,7 @@ search autocomplete that uses Places api from google, also it has included sweet
 <br>
 #Sweetalert2 - If the searched city is not found <br>
  <br>
-<img src="public/img/error.png" width="200">
+<img src="public/img/error.png" width="200"> <br>
 <br>
 #Places api - Autocomplete <br>
 <br>
