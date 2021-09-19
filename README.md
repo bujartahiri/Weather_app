@@ -11,7 +11,7 @@ search autocomplete that uses Places api from google, also it has included sweet
 #Sweetalert2 - If the searched city is not found <br>
  <br>
 <img src="public/img/error.png" width="200">
-
+<br>
 #Places api - Autocomplete <br>
 <br>
 <img src="public/img/autocomplete.png" width="200">
