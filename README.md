@@ -1,6 +1,6 @@
 # Weather_app
 <br>
-<a href="happy-benz-4a4a6e.netlify.app">DEMO<br>
+<a href="happy-benz-4a4a6e.netlify.app">DEMO (Not online)<br>
 <br>
 <h6>-- Latest update -- 
  -- When the app is first opened it asks for users location and then display weather based in users location -- <br>
